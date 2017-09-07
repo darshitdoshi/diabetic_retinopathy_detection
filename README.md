@@ -23,3 +23,13 @@ CNN training performed using NVIDIA GeForce GTX 780 series GPU of RAM 3GB.
 7. Activation function for convolution and hidden layers is Leaky Rectifier. 
 
 8. Obtains a quadratic kappa score of 0.3996. 
+
+# Additional Note
+
+CNN.py : The main file which takes the data, splits into batches and starts the training/learning process. 
+Neural.py : Contains the design of the CNN. 
+loss.py : Defines various different loss functions experimented with. 
+class_balance.py : Code to class balance the train dataset. 
+testFile.py : Code to perform predictions on the test dataset and calculate the accuracy. 
+updateRate.py : Defines learning rate of the network. 
+newFilesArray.npy and newYArray.npy are numpy arrays containing the images and labels respectively. 
