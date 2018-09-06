@@ -3,6 +3,7 @@ Implementation for the Kaggle competition http://www.kaggle.com/c/diabetic-retin
 
 The various data pre-processing techniques were per- formed using ImageMagick (a command line tool for image processing) and OpenCV.
 CNN training performed using NVIDIA GeForce GTX 780 series GPU of RAM 3GB. 
+Deep learning library used is Nolearn (https://github.com/dnouri/nolearn)
 
 # Overview
 
